@@ -1,0 +1,170 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arnold Success Ndlovu — Portfolio</title>
+  <meta name="description" content="The professional portfolio of Arnold Success Ndlovu — projects, skills, experience, and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <meta property="og:title" content="Arnold Success Ndlovu — Portfolio">
+  <meta property="og:description" content="Projects, skills, experience, and contact information.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/og-image.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Arnold Success Ndlovu",
+    "url": "",
+    "jobTitle": "Consultant",
+    "sameAs": []
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">Arnold <span>Ndlovu</span></a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__content">
+        <h1 id="hero-title">Turning ideas into shipped results</h1>
+        <p>I build and deliver solutions with measurable impact—focused on clarity, speed, and quality.</p>
+        <div class="cta-group">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-secondary" href="#contact">Contact Me</a>
+        </div>
+        <ul class="trustbar" aria-label="Highlights">
+          <li>✔ Results-first</li>
+          <li>✔ Transparent</li>
+          <li>✔ Fast turnaround</li>
+        </ul>
+      </div>
+      <div class="hero__image">
+        <img src="assets/img/hero.jpg" alt="Abstract technology background" />
+      </div>
+    </section>
+
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <h2 id="projects-title">Selected Projects</h2>
+      <ul class="project-grid">
+        <li class="project-card">
+          <img src="assets/img/project1.jpg" alt="Screenshot of Project A" />
+          <div>
+            <h3>Project A — Analytics Dashboard</h3>
+            <p>Built a responsive dashboard with role-based access and KPI tracking. Reduced reporting time by 60%.</p>
+            <div class="meta"><span class="tag">2025</span> <span class="tag">React</span> <span class="tag">Node</span></div>
+            <div class="links">
+              <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </div>
+        </li>
+        <li class="project-card">
+          <img src="assets/img/project2.jpg" alt="Screenshot of Project B" />
+          <div>
+            <h3>Project B — Process Automation</h3>
+            <p>Automated a manual workflow, saving ~120 hours/month and improving data accuracy.</p>
+            <div class="meta"><span class="tag">2025</span> <span class="tag">Python</span> <span class="tag">Airflow</span></div>
+            <div class="links">
+              <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">Case Study</a>
+            </div>
+          </div>
+        </li>
+        <li class="project-card">
+          <img src="assets/img/project3.jpg" alt="Screenshot of Project C" />
+          <div>
+            <h3>Project C — Website Redesign</h3>
+            <p>Redesigned a corporate site improving Core Web Vitals and conversion by 18%.</p>
+            <div class="meta"><span class="tag">2024</span> <span class="tag">HTML/CSS</span> <span class="tag">SEO</span></div>
+            <div class="links">
+              <a class="btn btn-ghost" href="#" target="_blank" rel="noopener">Live</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills" class="section" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills</h2>
+      <div class="skills">
+        <div>
+          <h3>Delivery</h3>
+          <ul>
+            <li>Project scoping & roadmapping</li>
+            <li>Agile/Lean delivery</li>
+            <li>Stakeholder communication</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Tech</h3>
+          <ul>
+            <li>JavaScript, HTML, CSS</li>
+            <li>Python & data workflows</li>
+            <li>Cloud & CI/CD basics</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Quality</h3>
+          <ul>
+            <li>Testing & documentation</li>
+            <li>Performance & accessibility</li>
+            <li>Analytics & SEO</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section" aria-labelledby="about-title">
+      <h2 id="about-title">About</h2>
+      <p>Hi, I’m <strong>Arnold Success Ndlovu</strong>. I help organisations turn strategy into shipped results. I care about clarity, fast feedback loops, and maintainable outcomes.</p>
+    </section>
+
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <p>Message me and I’ll reply within one business day.</p>
+      <form class="contact-form" action="https://formspree.io/f/your-id" method="POST">
+        <label> Your Name
+          <input type="text" name="name" required>
+        </label>
+        <label> Email
+          <input type="email" name="email" required>
+        </label>
+        <label> Message
+          <textarea name="message" rows="6" required></textarea>
+        </label>
+        <button class="btn btn-primary" type="submit">Send</button>
+      </form>
+      <div class="contact-extras">
+        <p><strong>Email:</strong> you@example.com</p>
+        <p><strong>WhatsApp:</strong> +27 00 000 0000</p>
+        <p><strong>Location:</strong> Gauteng, South Africa</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Arnold Success Ndlovu. All rights reserved.</p>
+    <div class="social">
+      <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      <a href="#" aria-label="X">X</a>
+      <a href="#" aria-label="GitHub">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
